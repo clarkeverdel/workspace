@@ -7,11 +7,14 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "test:component": "cypress open --component"
   },
   "devDependencies": {
     "nuxt": "^3.10.0",
     "vue": "^3.4.20",
-    "vue-router": "^4.3.0"
-  }
+    "vue-router": "^4.3.0",
+    "cypress": "^13.16.1"
+  },
+  "dependencies": {}
 }
